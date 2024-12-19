@@ -8,6 +8,7 @@ export default function Header() {
         window.scrollTo(0, 0)
     }, [])
 
+
     return (
 
         <header id='home' className='layout-background'>
@@ -15,6 +16,7 @@ export default function Header() {
             <div className='img'>
                 <img className="img" src={img1} alt="Imagen de Japón" />
             </div>
+            
         </header>
     )
 }
